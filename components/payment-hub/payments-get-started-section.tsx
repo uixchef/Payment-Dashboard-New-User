@@ -34,7 +34,7 @@ export function PaymentsGetStartedSection({
   return (
     <section
       className={cn(
-        "flex w-full flex-col gap-4 pb-4 pt-8",
+        "flex w-full flex-col gap-4",
         className
       )}
       aria-labelledby="payments-get-started-heading"
