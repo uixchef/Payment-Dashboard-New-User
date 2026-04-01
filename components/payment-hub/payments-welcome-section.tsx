@@ -57,7 +57,7 @@ export function PaymentsWelcomeSection({ className }: { className?: string }) {
         </div>
       </div>
 
-      <div className="relative h-[190px] w-full shrink-0 overflow-hidden lg:w-[349px]">
+      <div className="relative h-[190px] w-full shrink-0 overflow-hidden lg:h-full lg:min-h-0 lg:w-[349px]">
         <Image
           src={demoImageSrc}
           alt=""
@@ -70,7 +70,7 @@ export function PaymentsWelcomeSection({ className }: { className?: string }) {
           className="absolute inset-0 bg-[rgba(18,18,18,0.5)]"
           aria-hidden
         />
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex h-full items-center justify-center">
           <button
             type="button"
             className="outline-none transition hover:opacity-95 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
