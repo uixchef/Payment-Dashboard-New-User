@@ -132,6 +132,8 @@ my-app/
 ├── components/
 │   ├── payment-hub/        # onboarding + hub chrome (welcome, get started, quick links, shell, sidebar, topbar)
 │   └── ui/                 # shared primitives (button, input, etc.)
+├── docs/
+│   └── screenshots/        # README and design reference captures
 ├── lib/                    # utilities (e.g. classnames)
 └── package.json
 ```
@@ -140,12 +142,15 @@ my-app/
 
 ## Screenshots / demo
 
-Add:
+**Payments overview — new user (empty state):** welcome hero, **0/3** setup progress, three guided step cards, and the end-to-end payments suite grid.
 
-- A full-height capture of the **payment hub** onboarding page (welcome + three-step setup + suite grid).
-- Optional: a short screen recording walking through **connect → create → verify** and landing on the first success state.
+![Payments overview onboarding with zero steps completed: welcome section, get started cards at 0 of 3, and feature discovery grid](docs/screenshots/payments-overview-empty-state.png)
 
-*Replace this subsection with assets when publishing externally; keep alt text descriptive for accessibility.*
+**Payments overview — onboarding in progress:** same layout with **2/3** completed; completed steps show checkmarks and updated copy (e.g. connected providers, products created) while the remaining step stays actionable.
+
+![Payments overview with two of three onboarding steps completed, progress bar at 2 of 3, and configure sales channel as the remaining task](docs/screenshots/payments-overview-two-steps-completed.png)
+
+Optional: add a short screen recording walking through **connect → create → verify** and landing on the first success state.
 
 ---
 
