@@ -153,7 +153,7 @@ Add:
 
 - **Active user dashboard** — operational metrics and day-to-day payments workflows for users post-activation.
 
-Explore the operational dashboard → [INSERT ACTIVE USER REPO LINK]
+Explore the operational dashboard → [Payment-Dashboard-Active-User](https://github.com/uixchef/Payment-Dashboard-Active-User.git)
 
 ---
 
@@ -167,4 +167,4 @@ Explore the operational dashboard → [INSERT ACTIVE USER REPO LINK]
 
 ## License
 
-Proprietary — internal HighLevel use only. Unauthorized copying, distribution, or use outside the organization is not permitted.
+This project is proprietary and intended for internal use only. Unauthorized copying, distribution, or use is prohibited.
