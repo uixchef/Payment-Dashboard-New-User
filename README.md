@@ -144,11 +144,11 @@ my-app/
 
 **Payments overview — new user (empty state):** welcome hero, **0/3** setup progress, three guided step cards, and the end-to-end payments suite grid.
 
-![Payments overview onboarding with zero steps completed: welcome section, get started cards at 0 of 3, and feature discovery grid](docs/screenshots/payments-overview-empty-state.png)
+![Payments overview onboarding with zero steps completed: welcome section, get started cards at 0 of 3, and feature discovery grid](https://raw.githubusercontent.com/uixchef/Payment-Dashboard-New-User/main/docs/screenshots/payments-overview-empty-state.png)
 
 **Payments overview — onboarding in progress:** same layout with **2/3** completed; completed steps show checkmarks and updated copy (e.g. connected providers, products created) while the remaining step stays actionable.
 
-![Payments overview with two of three onboarding steps completed, progress bar at 2 of 3, and configure sales channel as the remaining task](docs/screenshots/payments-overview-two-steps-completed.png)
+![Payments overview with two of three onboarding steps completed, progress bar at 2 of 3, and configure sales channel as the remaining task](https://raw.githubusercontent.com/uixchef/Payment-Dashboard-New-User/main/docs/screenshots/payments-overview-two-steps-completed.png)
 
 Optional: add a short screen recording walking through **connect → create → verify** and landing on the first success state.
 
